@@ -24,10 +24,10 @@ public class TesteProduto {
                     listaDeProdutos.add(produto);
                     break;
                 case 2:
+                    System.out.println("Produtos cadastrados: ");
                     for (int i = 0; i < listaDeProdutos.size(); i++) {
                         Produto verProduto = listaDeProdutos.get(i);
-                        System.out.println("Os produtos que já estão salvos são os seguintes:" + verProduto.getNome());
-                        System.out.print(" " + verProduto.getPreco());
+                        System.out.println(verProduto.getNome() + " " + "r$ " + verProduto.getPreco());
                     }
                     break;
                 case 3:
